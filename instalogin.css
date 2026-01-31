@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-.side {
+main {
+    display: flex;
+}
+
+.left {
     border: 1px solid black;
     width: 1010px;
     height: 720px;
@@ -14,7 +18,7 @@
     align-items: center;
 }
 
-.Log {
+.right {
     border: 2px solid rgb(60, 54, 81);
     width: 540px;
     height: 720px;
@@ -25,11 +29,15 @@
     align-items: center;
 }
 
-main {
-    display: flex;
+.a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
 }
 
-#d {
+.b {
     /* text-align: center; */
     font-size: 40px;
     color: white;
@@ -39,15 +47,7 @@ main {
     font-size: 40px;
 }
 
-.logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 100px;
-    height: 100px;
-}
-
-#user {
+.e {
     margin-bottom: 10px;
     width: 400px;
     padding: 13px;
@@ -57,7 +57,7 @@ main {
     background-color: rgb(31, 30, 43);
 }
 
-#pass {
+.f {
     margin-bottom: 20px;
     width: 400px;
     padding: 13px;
@@ -67,7 +67,7 @@ main {
     background-color: rgb(31, 30, 43);
 }
 
-#login {
+.g {
     width: 430px;
     padding: 10px;
     border-radius: 20px;
@@ -75,7 +75,7 @@ main {
     background-color: blue;
 }
 
-.btn {
+.h {
     margin-bottom: 30px;
     display: inline-block;
     width: 420px;
@@ -88,11 +88,11 @@ main {
     border-radius: 20px;
 }
 
-.btn:hover {
+.h:hover {
     background-color: grey;
 }
 
-.fb {
+.i {
     display: inline-block;
     width: 420px;
     padding: 8px;
@@ -105,11 +105,11 @@ main {
     border-color: white;
 }
 
-.fb:hover {
+.i:hover {
     background-color: grey;
 }
 
-.new {
+.j {
     display: inline-block;
     width: 420px;
     padding: 8px;
@@ -122,8 +122,13 @@ main {
     border-color: blue;
 }
 
-.new:hover {
+.j:hover {
     background-color: grey;
+}
+
+.k {
+    color: white;
+    margin-top: 20px;
 }
 
 footer {
